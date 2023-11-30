@@ -201,4 +201,4 @@ with tab1:
 
 st.pyplot(fig)
  
-st.caption('Copyright (c) Dicoding 2023')
+st.caption('Copyright (c) Intan Ayu Barochaning Tyas 2023')
