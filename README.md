@@ -11,36 +11,41 @@
 - [Data Sources](#data-sources)
 
 ## Overview
-This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
+Proyek ini merupakan proyek analisis dan visualisasi data yang berfokus pada data publik e-commerce. Ini mencakup kode untuk perselisihan data, analisis data eksplorasi (EDA), dan dasbor Streamlit untuk eksplorasi data interaktif. Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset.
 
 ## Project Structure
-- `dashboard/`: This directory contains dashboard.py which is used to create dashboards of data analysis results.
-- `data/`: Directory containing the raw CSV data files.
-- `notebook.ipynb`: This file is used to perform data analysis.
-- `README.md`: This documentation file.
+- `dashboard/`: Direktori ini berisi dashboard.py yang digunakan untuk membuat dashboard hasil analisis data.
+- `data/`: Direktori yang berisi file data CSV mentah.
+- `notebook.ipynb`: File ini digunakan untuk melakukan analisis data.
+- `README.md`: File dokumentasi ini.
 
-## proses instal
-1. masuk ke dalam directory dashboard 
+## install
+1. Clone repositori ini ke mesin lokal :
 ```
-cd TUGAS_DICODING
+git clone https://github.com/mhdhfzz/data-analyst-dicoding.git
 ```
-3. install package yang dibutuhkan:
+2. masuk ke dalam directory  project
+```
+cd tugas-dicoding
+```
+3. Instal paket Python yang diperlukan dengan menjalankan perintah:
 ```
 pip install -r requirements.txt
 ```
 
+
 ## Penggunaan
-1. **Data Wrangling**: Data wrangling scripts are available in the `notebook.ipynb` file to prepare and clean the data.
+1. **Penyelesaian Data**: Skrip pengaturan data tersedia di file `notebook.ipynb` untuk menyiapkan dan membersihkan data.
 
-2. **Exploratory Data Analysis (EDA)**: Explore and analyze the data using the provided Python scripts. EDA insights can guide your understanding of e-commerce public data patterns.
+2. **Analisis Data Eksplorasi (EDA)**: Jelajahi dan analisis data menggunakan skrip Python yang disediakan. Wawasan EDA dapat memandu pemahaman Anda tentang pola data publik e-niaga.
 
-3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
+3. **Visualisasi**: Jalankan dasbor Streamlit untuk eksplorasi data interaktif:
 
 ```
-cd data-analyst-dicoding/dashboard
+cd tugas-dicoding/dashboard
 streamlit run dashboard.py
 ```
-Access the dashboard in your web browser at `http://localhost:8501`.
+Akses dasborad di browser web `http://localhost:8501`.
 
 ## Data Sources
-The project uses E-Commerce Public Dataset from [Belajar Analisis Data dengan Python's Final Project](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
+sumber data set [E-commerce public dataset](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/viewusp=sharinghttps://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view?usp=sharing)
